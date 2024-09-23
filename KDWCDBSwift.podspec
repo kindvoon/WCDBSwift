@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'Frameworks/WCDBSwift.xcframework'
   s.libraries   = "iconv", "z", "stdc++", "sqlite3", "c++"
   s.requires_arc = true
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   
 end
 
