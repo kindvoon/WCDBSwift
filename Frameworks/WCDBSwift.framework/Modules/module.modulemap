@@ -1,4 +1,0 @@
-framework module WCDBSwift {
-  header "WCDBSwift-Swift.h"
-  requires objc
-}

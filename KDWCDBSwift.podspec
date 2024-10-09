@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author           = { 'kindvoon' => 'kindvoon@gmail.com' }
   s.source           = { :git => 'https://github.com/kindvoon/WCDBSwift.git', :tag => s.version.to_s }
   s.ios.deployment_target = '12.0'
-  s.frameworks = 'WCDBSwift'
+  #s.frameworks = 'WCDBSwift'
   s.ios.vendored_frameworks = 'Frameworks/WCDBSwift.xcframework'
   s.libraries   = "iconv", "z", "stdc++", "sqlite3", "c++"
   s.requires_arc = true
